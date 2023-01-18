@@ -5,9 +5,9 @@ function verificar() {
 
     show.textContent = "Divisores do " + numero + ": "
 
-    var soma = 0
+    var soma = 1
 
-    for (var i = 0; i < numero; i++) {
+    for (var i = 2; i < numero; i++) {
         if (numero % i == 0) {
             soma += i
             if (i < (numero / 2)) {
