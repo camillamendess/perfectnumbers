@@ -10,7 +10,7 @@ function verificar() {
     for (var i = 0; i < numero; i++) {
         if (numero % i == 0) {
             soma += i
-            if (i < Math.around(numero / 2)) {
+            if (i < (numero / 2)) {
                 show.textContent += i + ", "
 
             } else {
