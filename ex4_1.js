@@ -3,7 +3,7 @@ function verificar() {
     var show = document.getElementById('resposta')
     var perfect = document.getElementById('pf')
 
-    show.textContent = "Divisores do " + numero + ": "
+    show.textContent = "Divisores do " + numero + ": 1, "
 
     var soma = 1
 
