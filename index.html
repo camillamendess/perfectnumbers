@@ -10,12 +10,25 @@
 </head>
 
 <body>
-    <h1>Números Perfeitos</h1>
-    <p id="n">Número: <input type="number" id="num"> <input type="button" value="Verificar" id="botao" onclick="verificar()"></p>
-    <div id="div">
-        <p id="resposta"></p>
-        <p id="pf"></p>
+    <div id="texto-principal">
+        <h1>Números Perfeitos</h1>
+        <div id="div-container">
+            <div id="div-put">
+                <p id="n">Número: </p>
+            </div>
+            <div id="div-put">
+                <input type="number" id="num">
+            </div>
+            <div id="div-put">
+                <input type="button" value="Verificar" id="botao" onclick="verificar()"></p>
+            </div>
+        </div>
+        <div id="div-resposta">
+            <p id="resposta"></p>
+            <p id="pf"></p>
+        </div>
     </div>
+
 
     <script src="ex4_1.js"></script>
 
