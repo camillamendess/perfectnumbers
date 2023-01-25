@@ -1,13 +1,19 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 body {
+    height: 50%;
     background-image: url(numbers.jpg);
     background-size: 100%;
     font: normal 15pt Comic Sans MS, Comic Sans, cursive;
-    margin: 3em 2px 0 50px;
 }
 
 #num {
     border-radius: 4px;
-    height: 20px;
+    height: 25px;
 }
 
 #botao {
@@ -27,9 +33,24 @@ body {
     background: linear-gradient(#3d94f6, #1e62d0);
 }
 
-#div {
+#texto-principal {
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding: 80px;
+}
+
+#div-container {
+    display: flex;
+}
+
+#div-put {
+    padding: 15px 25px 0 0;
+}
+
+#div-resposta {
     background-color: aliceblue;
-    width: 420px;
+    width: 450px;
     height: 30%;
     margin-top: 20px;
     border-radius: 4px;
