@@ -1,15 +1,15 @@
 #texto-principal {
     height: 100%;
     flex-direction: column;
-    align-items: center;
-    padding: 60px 20px;
-}
-
-#texto-principal h1 {
     text-align: center;
+    padding: 60px 40px;
 }
 
 body {
     background-image: url(numbers1.jpg);
     background-size: 100%;
+}
+
+#div-resposta {
+    margin: 15px 15px 15px 0;
 }
