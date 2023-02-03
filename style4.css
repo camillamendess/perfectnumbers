@@ -45,13 +45,13 @@ body {
 }
 
 #div-put {
-    padding: 15px 25px 0 0;
+    padding: 15px 15px 0 0;
 }
 
 #div-resposta {
     background-color: aliceblue;
-    width: 450px;
-    height: 30%;
+    width: 430px;
+    height: 20%;
     margin-top: 20px;
     border-radius: 4px;
     box-shadow: 3px 3px 10px rgb(73, 41, 41);
