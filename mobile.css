@@ -1,16 +1,39 @@
-#texto-principal {
-    width: 95%;
-    height: 100%;
-    flex-direction: column;
-    text-align: center;
-    padding: 60px 40px;
-}
-
 body {
     background-image: url(numbers1.jpg);
+    background-repeat: no-repeat;
     background-size: 100%;
 }
 
+#title {
+    width: 180px;
+    font-size: 6vw;
+}
+
+#texto-principal {
+    font-size: 6vw;
+    padding: 50px;
+}
+
+#div-container {
+    width: 180px;
+}
+
+#num {
+    width: 60px;
+}
+
+#botao {
+    width: 80px;
+    height: 26px;
+}
+
 #div-resposta {
-    margin: 15px 15px 15px 0;
+    width: 230px;
+    height: 40px;
+    padding-top: 6px;
+    margin-top: 10px;
+}
+
+#div-put {
+    padding: 10px 5px 5px 0;
 }
