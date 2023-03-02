@@ -5,12 +5,12 @@ body {
 }
 
 #title {
-    width: 180px;
-    font-size: 6vw;
+    width: 350px;
+    font-size: 5vw;
 }
 
 #texto-principal {
-    font-size: 6vw;
+    font-size: 4vw;
     padding: 50px;
 }
 
@@ -20,18 +20,21 @@ body {
 
 #num {
     width: 60px;
+    font-size: 4vw;
 }
 
 #botao {
     width: 80px;
     height: 26px;
+    font-size: 4vw;
 }
 
 #div-resposta {
     width: 230px;
-    height: 40px;
-    padding-top: 6px;
-    margin-top: 10px;
+    height: 20%;
+    font-size: 4vw;
+    padding-top: 5px;
+    margin-top: 5px;
 }
 
 #div-put {
